@@ -40,6 +40,7 @@ class ClienteController {
                 apellido: data.apellido,
                 fecha_nacimiento: data.fecha_nacimiento
             });
+            
             return oCliente;
         }catch(err){
             return response.status(500).json({
